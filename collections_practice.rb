@@ -27,7 +27,9 @@ def kesha_maker(array)
   end 
 end 
 
-def find_a
+def find_a(array)
+  array.find do |i|
+    i[0] = "a"
 end 
 
 def sum_array
