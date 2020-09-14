@@ -6,9 +6,9 @@ def sort_array_desc(num)
   num.sort.reverse
 end 
 
-def sort_array_chair_count(array)
-    array.sort do |left, right|
-    left.length <=> right.length
+def sort_array_chair_count(strings)
+    strings.sort do |a, b|
+    a.length <=> b.length
   end
 end 
 
