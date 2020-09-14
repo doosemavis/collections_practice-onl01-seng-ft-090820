@@ -3,7 +3,7 @@ def sort_array_asc(num)
 end 
 
 def sort_array_desc(num)
-  num.
+  num.sort.reverse
 end 
 
 def sort_array_chair_count
