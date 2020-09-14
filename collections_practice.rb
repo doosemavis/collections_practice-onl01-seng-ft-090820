@@ -7,9 +7,7 @@ def sort_array_desc(num)
 end 
 
 def sort_array_chair_count(array)
-  array.sort do |a, b| 
-    a.length<=> b.length
-  end 
+  array.sort
 end 
 
 def swap_elements
