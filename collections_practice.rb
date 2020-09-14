@@ -6,7 +6,8 @@ def sort_array_desc(num)
   num.sort.reverse
 end 
 
-def sort_array_chair_count
+def sort_array_chair_count(array)
+  array.sort.length 
 end 
 
 def swap_elements
