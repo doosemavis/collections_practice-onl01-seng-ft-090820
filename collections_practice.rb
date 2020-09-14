@@ -2,7 +2,8 @@ def sort_array_asc(num)
   num.sort
 end 
 
-def sort_array_desc
+def sort_array_desc(num)
+  num.
 end 
 
 def sort_array_chair_count
