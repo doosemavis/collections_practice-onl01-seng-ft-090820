@@ -9,7 +9,7 @@ end
 def sort_array_chair_count(strings)
     strings.sort do |a, b|
     a.length <=> b.length
-  end
+    end
 end 
 
 def swap_elements
